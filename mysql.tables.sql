@@ -14,6 +14,9 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
+-- Select database sqoop
+USE sqoop;
+
 -- Create table cities
 CREATE TABLE `cities` (
   `id` INTEGER UNSIGNED NOT NULL,
